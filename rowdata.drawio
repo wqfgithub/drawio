@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-29T09:42:44.338Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="zZiFmVozE0sqzCxOH6hW" version="14.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-29T09:51:24.468Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="DegtkcT-Ke81YPg1YHSZ" version="14.8.1" type="github">
   <diagram id="t-GLDYwW0JA3R3wD6FrM" name="Page-1">
     <mxGraphModel dx="1237" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -145,7 +145,7 @@
         <mxCell id="5kngIsEmxCErW-KxKxi0-120" value="fff" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="265" y="630" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5kngIsEmxCErW-KxKxi0-123" value="将空值字段单独放到前面的NULL列表，节省部分空间。在反转的时候需要读取表机构为空的字段这里的C1、C3、C4是属于可空的。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5kngIsEmxCErW-KxKxi0-123" value="将空值字段单独放到前面的NULL列表，节省部分空间。在反转的时候需要读取表结构为空的字段这里的C1、C3、C4是属于可空的。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="617" y="510" width="210" height="140" as="geometry" />
         </mxCell>
         <mxCell id="5kngIsEmxCErW-KxKxi0-206" value="方式3" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="1">
@@ -201,11 +201,8 @@
         <mxCell id="5kngIsEmxCErW-KxKxi0-221" value="34" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="35" y="840" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5kngIsEmxCErW-KxKxi0-223" value="将空值字段单独放到前面的NULL列表，节省部分空间。在反转的时候需要读取表机构为空的字段这里的C1、C3、C4是属于可空的。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5kngIsEmxCErW-KxKxi0-223" value="在方式2的基础上，直接将数据放到一起，无需分隔符，那么如何判断哪些字符属于哪个字段，通过可变长度列表和NULL就可以判断出来了，进一步节省空间" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="710" width="210" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="5kngIsEmxCErW-KxKxi0-225" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5kngIsEmxCErW-KxKxi0-208" target="5kngIsEmxCErW-KxKxi0-219">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
