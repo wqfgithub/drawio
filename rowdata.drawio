@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-29T09:38:17.490Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="8WsJcY4iNeaBnrssWdDY" version="14.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-29T09:42:44.338Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="zZiFmVozE0sqzCxOH6hW" version="14.8.1" type="github">
   <diagram id="t-GLDYwW0JA3R3wD6FrM" name="Page-1">
     <mxGraphModel dx="1237" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -147,6 +147,65 @@
         </mxCell>
         <mxCell id="5kngIsEmxCErW-KxKxi0-123" value="将空值字段单独放到前面的NULL列表，节省部分空间。在反转的时候需要读取表机构为空的字段这里的C1、C3、C4是属于可空的。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="617" y="510" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5kngIsEmxCErW-KxKxi0-206" value="方式3" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="1">
+          <mxGeometry y="730" width="360" height="80" as="geometry">
+            <mxRectangle y="320" width="60" height="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5kngIsEmxCErW-KxKxi0-207" value="可变长度列表" style="swimlane;startSize=20;" vertex="1" parent="5kngIsEmxCErW-KxKxi0-206">
+          <mxGeometry y="20" width="120" height="60" as="geometry">
+            <mxRectangle y="20" width="30" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5kngIsEmxCErW-KxKxi0-208" value="NULL列表" style="swimlane;startSize=20;" vertex="1" parent="5kngIsEmxCErW-KxKxi0-206">
+          <mxGeometry x="120" y="20" width="120" height="60" as="geometry">
+            <mxRectangle x="120" y="20" width="30" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5kngIsEmxCErW-KxKxi0-209" value="000" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="5kngIsEmxCErW-KxKxi0-208">
+          <mxGeometry x="30" y="30" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5kngIsEmxCErW-KxKxi0-210" value="C" style="swimlane;startSize=20;" vertex="1" parent="5kngIsEmxCErW-KxKxi0-206">
+          <mxGeometry x="240" y="20" width="120" height="60" as="geometry">
+            <mxRectangle x="240" y="20" width="30" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5kngIsEmxCErW-KxKxi0-214" value="aaaabbbccd" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="5kngIsEmxCErW-KxKxi0-210">
+          <mxGeometry x="25" y="30" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5kngIsEmxCErW-KxKxi0-213" value="134" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="780" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5kngIsEmxCErW-KxKxi0-217" value="可变长度列表" style="swimlane;startSize=20;" vertex="1" parent="1">
+          <mxGeometry y="810" width="120" height="60" as="geometry">
+            <mxRectangle y="20" width="30" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5kngIsEmxCErW-KxKxi0-218" value="NULL列表" style="swimlane;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="120" y="810" width="120" height="60" as="geometry">
+            <mxRectangle x="120" y="20" width="30" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5kngIsEmxCErW-KxKxi0-219" value="100" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="5kngIsEmxCErW-KxKxi0-218">
+          <mxGeometry x="30" y="30" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5kngIsEmxCErW-KxKxi0-220" value="C" style="swimlane;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="240" y="810" width="120" height="60" as="geometry">
+            <mxRectangle x="240" y="20" width="30" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5kngIsEmxCErW-KxKxi0-222" value="eeeefff" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="5kngIsEmxCErW-KxKxi0-220">
+          <mxGeometry x="35" y="30" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5kngIsEmxCErW-KxKxi0-221" value="34" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="35" y="840" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5kngIsEmxCErW-KxKxi0-223" value="将空值字段单独放到前面的NULL列表，节省部分空间。在反转的时候需要读取表机构为空的字段这里的C1、C3、C4是属于可空的。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="710" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5kngIsEmxCErW-KxKxi0-225" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5kngIsEmxCErW-KxKxi0-208" target="5kngIsEmxCErW-KxKxi0-219">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
