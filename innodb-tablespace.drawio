@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-05T08:23:54.393Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="oMmAxyfNJFKNqKFK4yHX" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-05T08:32:05.800Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="xJdk0w5PG2lspSCgk7J2" version="14.8.3" type="github">
   <diagram id="CAjRs1XAV1HnVaX1nY8e" name="Page-1">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -311,20 +311,59 @@
         <mxCell id="ih0qP1JdHF-IoTjoA30h-130" value="Data Dictory Header页结构示意图" style="swimlane;startSize=40;" vertex="1" parent="1">
           <mxGeometry x="840" y="440" width="200" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="ih0qP1JdHF-IoTjoA30h-131" value="File Header" style="whiteSpace=wrap;html=1;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-130">
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-131" value="File Header" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-130">
           <mxGeometry y="40" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ih0qP1JdHF-IoTjoA30h-132" value="Data Dictionary Header" style="whiteSpace=wrap;html=1;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-130">
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-132" value="Data Dictionary Header" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-130">
           <mxGeometry y="80" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ih0qP1JdHF-IoTjoA30h-133" value="Segment Header" style="whiteSpace=wrap;html=1;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-130">
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-133" value="Segment Header" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-130">
           <mxGeometry y="120" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ih0qP1JdHF-IoTjoA30h-134" value="Empty Space" style="whiteSpace=wrap;html=1;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-130">
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-134" value="Empty Space" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-130">
           <mxGeometry y="160" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ih0qP1JdHF-IoTjoA30h-135" value="File Trailer" style="whiteSpace=wrap;html=1;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-130">
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-135" value="File Trailer" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-130">
           <mxGeometry y="280" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-136" value="File Space Header结构示意图" style="swimlane;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="-520" width="201" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-138" value="Space ID" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-136">
+          <mxGeometry x="1" y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-139" value="Not Used" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-136">
+          <mxGeometry y="80" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-140" value="Size" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-136">
+          <mxGeometry y="120" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-141" value="FREE Limit" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-136">
+          <mxGeometry y="160" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-142" value="Space Flags" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-136">
+          <mxGeometry y="200" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-143" value="FRAG_N_USED" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-136">
+          <mxGeometry y="240" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-144" value="List Base Node for Free_List" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-136">
+          <mxGeometry y="280" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-145" value="List Base Node for Free_FRAG List" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-136">
+          <mxGeometry y="320" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-146" value="List Base Node for Full_FRAG List" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-136">
+          <mxGeometry y="360" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-147" value="Next Unused Segment ID" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-136">
+          <mxGeometry y="400" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-148" value="List Base Node for SEG_INODES_FULL" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-136">
+          <mxGeometry y="440" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-149" value="List Base Node for SEG_INODES_FREE" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-136">
+          <mxGeometry x="1" y="480" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
