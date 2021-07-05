@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-05T13:37:28.400Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="J2DrQVlpSFlCdrj6X4mE" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-05T14:04:34.292Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="TMJc4ro7STX2qzbpFZTg" version="14.8.3" type="github">
   <diagram id="CAjRs1XAV1HnVaX1nY8e" name="Page-1">
-    <mxGraphModel dx="1673" dy="2061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="1927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -698,10 +698,10 @@
         <mxCell id="ih0qP1JdHF-IoTjoA30h-246" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;" vertex="1" parent="1">
           <mxGeometry x="1860" y="1120" width="20" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ih0qP1JdHF-IoTjoA30h-247" value="这两个字段指向XDES Entry链表头节点指针" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-247" value="这两个字段指向前一个XDES Entry的指针" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1880" y="1060" width="290" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ih0qP1JdHF-IoTjoA30h-248" value="这两个字段指向XDES Entry链表尾节点指针" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-248" value="这两个字段指向后一个XDES Entry的指针" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1880" y="1145" width="290" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ih0qP1JdHF-IoTjoA30h-249" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;" vertex="1" parent="1">
@@ -721,6 +721,15 @@
         </mxCell>
         <mxCell id="ih0qP1JdHF-IoTjoA30h-256" value="这三部分分别对应free、not_full，full链表的基节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1461" y="-70" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-257" value="0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="787" y="-560" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-258" value="区：针对海量数据表让数据尽量物理存储比较靠近，方便快速查询" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-520" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-259" value="段：针对叶子节点和非叶子节点分开存储，有利于数据扫描命中，不至于扫描无效的数据。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-470" width="310" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
