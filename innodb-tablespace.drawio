@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-05T10:21:28.188Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="qCG5GHccjuLPO8a7OBsd" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-05T10:22:18.275Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="nkHF1Z3kFkPCKdlA_gJ0" version="14.8.3" type="github">
   <diagram id="CAjRs1XAV1HnVaX1nY8e" name="Page-1">
     <mxGraphModel dx="1673" dy="2065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -715,6 +715,12 @@
         </mxCell>
         <mxCell id="ih0qP1JdHF-IoTjoA30h-252" value="这两个字段指向XDES Entry链表尾节点指针" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1874" y="-50" width="306" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-253" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="1441" y="-120" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-254" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="-110" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
