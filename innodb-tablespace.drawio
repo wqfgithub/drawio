@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-05T10:00:52.147Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="a26-wTiGLYKVM7eisoOK" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-05T10:03:09.805Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="7SQ2VZqBLD5waZ80h5_d" version="14.8.3" type="github">
   <diagram id="CAjRs1XAV1HnVaX1nY8e" name="Page-1">
     <mxGraphModel dx="1673" dy="2065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -691,6 +691,18 @@
         </mxCell>
         <mxCell id="ih0qP1JdHF-IoTjoA30h-243" value="每个区对应一个XDES Entry，每个XDES Entry占40字节，所以XDES Entry部分共占用10240字节" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1040" y="950" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-245" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="1040" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-246" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="1120" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-247" value="这两个字段指向XDES Entry链表头节点指针" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="1060" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-248" value="这两个字段指向XDES Entry链表尾节点指针" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="1145" width="290" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
