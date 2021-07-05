@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-05T08:42:49.325Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="rqm3aZHWkfmv0a7jTYMT" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-05T08:58:31.667Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="WsfsmGDeEhRHzuB8LRcm" version="14.8.3" type="github">
   <diagram id="CAjRs1XAV1HnVaX1nY8e" name="Page-1">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -415,6 +415,42 @@
         </mxCell>
         <mxCell id="ih0qP1JdHF-IoTjoA30h-157" value="Segment ID" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1242" y="320" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-168" value="Data Dictionary Header" style="swimlane;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="800" width="200" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-169" value="MAX ROW ID" style="whiteSpace=wrap;html=1;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-168">
+          <mxGeometry y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-170" value="MAX TABLE ID" style="whiteSpace=wrap;html=1;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-168">
+          <mxGeometry y="80" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-171" value="MAX INDEX ID" style="whiteSpace=wrap;html=1;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-168">
+          <mxGeometry y="120" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-172" value="MAX SPACE ID" style="whiteSpace=wrap;html=1;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-168">
+          <mxGeometry y="160" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-173" value="MAX ID LOW" style="whiteSpace=wrap;html=1;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-168">
+          <mxGeometry y="200" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-174" value="ROOT of SYS_TABLES_CLUST INDEX" style="whiteSpace=wrap;html=1;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-168">
+          <mxGeometry y="240" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-175" value="ROOT of SYS_TABLE_IDS Sec INDEX" style="whiteSpace=wrap;html=1;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-168">
+          <mxGeometry y="280" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-176" value="ROOT of SYS_COLUMNS CLUST INDEX" style="whiteSpace=wrap;html=1;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-168">
+          <mxGeometry y="320" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-177" value="ROOT of SYS_INDEXES CLUST INDEX" style="whiteSpace=wrap;html=1;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-168">
+          <mxGeometry y="360" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-178" value="ROOT of SYS_FIELDS CLUST INDEX" style="whiteSpace=wrap;html=1;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-168">
+          <mxGeometry y="400" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-180" value="Unused" style="whiteSpace=wrap;html=1;" vertex="1" parent="ih0qP1JdHF-IoTjoA30h-168">
+          <mxGeometry y="440" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
