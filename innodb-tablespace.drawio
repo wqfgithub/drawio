@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-06T03:34:47.953Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="8th4xaLPSYglAMrDeFe1" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-06T03:50:38.128Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="JUYYQo9ufRPn3GWKmXvF" version="14.8.3" type="github">
   <diagram id="CAjRs1XAV1HnVaX1nY8e" name="Page-1">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -780,6 +780,12 @@
         </mxCell>
         <mxCell id="ih0qP1JdHF-IoTjoA30h-297" value="独立表空间首区组的前3个页比较特殊：&lt;br&gt;FSR_HDR页，记录表空间元信息+本区组所有extent entry&lt;br&gt;IBUF_BITMAP页，change buffer信息，固定位置&lt;br&gt;所谓系统表空间，指的是在独立表空间的基础上，首区组有增加了一些记录系统级属性的页面&lt;br&gt;&lt;br&gt;此后其他组的页面就相对固定了&lt;br&gt;XDES页，本区组所有的extent entry&lt;br&gt;IBUF_BITMAP页，change buffer信息，固定位置" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="-410" width="340" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-298" value="512M+16K" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="860" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-299" value="512M+32K" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="900" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
