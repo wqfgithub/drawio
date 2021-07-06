@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-06T02:54:12.527Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="I3bMmabwTMBnhAYvy_xt" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-06T03:05:16.082Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="MGSID9acBG1B9czuJKXN" version="14.8.3" type="github">
   <diagram id="CAjRs1XAV1HnVaX1nY8e" name="Page-1">
     <mxGraphModel dx="2031" dy="2258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -751,6 +751,32 @@
         </mxCell>
         <mxCell id="ih0qP1JdHF-IoTjoA30h-290" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ih0qP1JdHF-IoTjoA30h-285" target="ih0qP1JdHF-IoTjoA30h-289">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-293" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;gradientColor=#d5739d;fillColor=#e6d0de;strokeColor=#996185;" edge="1" parent="1" target="ih0qP1JdHF-IoTjoA30h-256">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1972" y="850" as="sourcePoint" />
+            <mxPoint x="2022" y="800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1970" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-294" value="段中不同状态区的链表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="290" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-295" value="" style="shape=flexArrow;endArrow=classic;html=1;fontColor=#000000;exitX=1;exitY=1;exitDx=0;exitDy=0;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="ih0qP1JdHF-IoTjoA30h-289">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2190" y="730" as="sourcePoint" />
+            <mxPoint x="1470" y="-710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2180" y="1070" />
+              <mxPoint x="2270" y="1070" />
+              <mxPoint x="2270" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-296" value="表空间下不同状态（空闲区，碎片区）的链表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="280" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
