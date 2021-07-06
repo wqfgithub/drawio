@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-06T03:05:16.082Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="MGSID9acBG1B9czuJKXN" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-06T03:15:19.897Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="d1lOdRJ5o6f6wneA_P1v" version="14.8.3" type="github">
   <diagram id="CAjRs1XAV1HnVaX1nY8e" name="Page-1">
     <mxGraphModel dx="2031" dy="2258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -764,19 +764,22 @@
         <mxCell id="ih0qP1JdHF-IoTjoA30h-294" value="段中不同状态区的链表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1830" y="290" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ih0qP1JdHF-IoTjoA30h-295" value="" style="shape=flexArrow;endArrow=classic;html=1;fontColor=#000000;exitX=1;exitY=1;exitDx=0;exitDy=0;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="ih0qP1JdHF-IoTjoA30h-289">
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-295" value="" style="shape=flexArrow;endArrow=classic;html=1;fontColor=#000000;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2190" y="730" as="sourcePoint" />
+            <mxPoint x="2110" y="1050" as="sourcePoint" />
             <mxPoint x="1470" y="-710" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2180" y="1070" />
-              <mxPoint x="2270" y="1070" />
+              <mxPoint x="2190" y="1050" />
+              <mxPoint x="2280" y="1050" />
               <mxPoint x="2270" y="200" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ih0qP1JdHF-IoTjoA30h-296" value="表空间下不同状态（空闲区，碎片区）的链表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2130" y="280" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ih0qP1JdHF-IoTjoA30h-297" value="独立表空间首区组的前3个页比较特殊：&lt;br&gt;FSR_HDR页，记录表空间元信息+本区组所有extent entry&lt;br&gt;IBUF_BITMAP页，change buffer信息，固定位置&lt;br&gt;所谓系统表空间，指的是在独立表空间的基础上，首区组有增加了一些记录系统级属性的页面&lt;br&gt;&lt;br&gt;此后其他组的页面就相对固定了&lt;br&gt;XDES页，本区组所有的extent entry&lt;br&gt;IBUF_BITMAP页，change buffer信息，固定位置" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-410" width="340" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
