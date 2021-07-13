@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2021-07-13T08:52:35.387Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="RGds3wEZAV7YQyazjmE5" version="14.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-13T08:54:48.302Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="h1LDcRD6m9deN1pzuzDZ" version="14.8.6" type="github">
   <diagram id="B_yDtCZu8Hi4jRMb0uQ-" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="m3cK9-EeNQBWDBcqQpg2-51" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry y="40" width="830" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="m3cK9-EeNQBWDBcqQpg2-50" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry y="440" width="830" height="480" as="geometry" />
+        </mxCell>
         <mxCell id="m3cK9-EeNQBWDBcqQpg2-1" value="LRU链表" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="200" y="60" width="120" height="340" as="geometry">
             <mxRectangle x="160" y="60" width="80" height="23" as="alternateBounds" />
@@ -73,7 +79,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="m3cK9-EeNQBWDBcqQpg2-21" value="这个结构解决了大表查询和预读问题" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="120" width="200" height="40" as="geometry" />
+          <mxGeometry x="600" y="120" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="m3cK9-EeNQBWDBcqQpg2-23" value="缓冲页1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="200" y="560" width="120" height="80" as="geometry" />
@@ -212,6 +218,9 @@
               <mxPoint x="510" y="880" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="m3cK9-EeNQBWDBcqQpg2-52" value="Free链表【Flush链表类似】" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="480" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
