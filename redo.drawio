@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T03:11:36.352Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="7eC5Qj0-ZWFCniPxDgxi" version="14.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-15T03:16:28.130Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="BNLyPHE_PMZ_wmTmpLUk" version="14.8.6" type="github">
   <diagram id="CFBNOVU3VkG_wfSF0KI7" name="Page-1">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -346,6 +346,12 @@
             <mxPoint x="-120" y="340" as="sourcePoint" />
             <mxPoint x="70" y="400" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-161" value="&lt;ol&gt;&lt;li&gt;LSN代表的写入redolog的大小。&lt;/li&gt;&lt;li&gt;checkpoint是为了处理redo-log文件追尾情况。&lt;/li&gt;&lt;li&gt;redo log buffer是为了处理CPU和磁盘速度不匹配情况。&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=left;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="585" width="550" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-162" value="日志刷盘" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="310" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
