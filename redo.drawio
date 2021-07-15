@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T14:18:23.449Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="vdJFwII7308bTlJ5QU4r" version="14.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-15T14:21:46.785Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="wgAUVOC6j0qk3O6wmipk" version="14.8.6" type="github">
   <diagram id="CFBNOVU3VkG_wfSF0KI7" name="Page-1">
     <mxGraphModel dx="3076" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -446,7 +446,7 @@
         <mxCell id="hLiM8OHmLuQRIlo8gQta-193" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;fontSize=17;gradientColor=none;align=center;verticalAlign=top;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="-429" y="710" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="hLiM8OHmLuQRIlo8gQta-195" value="&lt;span style=&quot;font-size: 12px&quot;&gt;代表mtr1事务完成刷脏，flush链表无此数据&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-195" value="&lt;span style=&quot;font-size: 12px&quot;&gt;代表mtr1事务完成刷脏，flush链表无此数据，数据全部落盘&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="-491" y="780" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
