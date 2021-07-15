@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T02:49:14.480Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="2F__GZCRMIxJyNlcsoYy" version="14.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-15T03:07:40.363Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="2GaDun50LpzpYu5dbz2o" version="14.8.6" type="github">
   <diagram id="CFBNOVU3VkG_wfSF0KI7" name="Page-1">
-    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2489" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-157" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="40" width="800" height="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-82" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry y="40" width="827" height="1120" as="geometry" />
+        </mxCell>
         <mxCell id="hLiM8OHmLuQRIlo8gQta-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="120" width="520" height="80" as="geometry" />
         </mxCell>
@@ -37,7 +43,7 @@
         <mxCell id="hLiM8OHmLuQRIlo8gQta-16" value="log body" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="80" y="280" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="hLiM8OHmLuQRIlo8gQta-17" value="redo log block页格式" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-17" value="redo log block块格式" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="220" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hLiM8OHmLuQRIlo8gQta-21" value="" style="endArrow=classic;html=1;exitX=0.992;exitY=0.42;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
@@ -256,6 +262,82 @@
               <mxPoint x="320" y="480" />
               <mxPoint x="480" y="480" />
               <mxPoint x="600" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-83" value="redo 磁盘组" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry y="50" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-85" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-749" y="120" width="520" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-86" value="type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-749" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-87" value="space_no" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-669" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-88" value="page_no" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-589" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-89" value="offset" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-509" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-90" value="data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-429" y="120" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-91" value="redo log行格式" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-749" y="90" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-92" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-749" y="240" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-93" value="log header" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-749" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-94" value="log tail" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-749" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-95" value="&lt;div&gt;&lt;span&gt;log body&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-749" y="280" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-96" value="redo log buffer块格式" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-749" y="220" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-147" value="redo 内存组" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="50" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-148" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-629" y="240" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-149" value="log header" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-629" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-150" value="log tail" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-629" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-151" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-629" y="280" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-154" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="315" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-155" value="mtr" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="320" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-156" value="redo log行" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="340" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-145" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#e51400;strokeColor=#B20000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hLiM8OHmLuQRIlo8gQta-90" target="hLiM8OHmLuQRIlo8gQta-156">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-439" y="200" as="sourcePoint" />
+            <mxPoint x="-430" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-200" y="170" />
+              <mxPoint x="-190" y="240" />
+              <mxPoint x="-200" y="290" />
+              <mxPoint x="-220" y="330" />
+              <mxPoint x="-250" y="360" />
             </Array>
           </mxGeometry>
         </mxCell>
