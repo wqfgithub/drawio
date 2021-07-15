@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T06:51:56.555Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="NhoSj-lHiW-I1jXWYZ97" version="14.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-15T09:47:30.563Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="pLJCF1I_Xbre8GcXVx3H" version="14.8.6" type="github">
   <diagram id="1UGfSIZUDwF0RM6fDKGw" name="Page-1">
-    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="xRVCFaqXsWq_xzEo-EkV-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="120" y="440" width="240" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="xRVCFaqXsWq_xzEo-EkV-2" value="update更新语句" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="191" y="30" width="100" height="60" as="geometry" />
+        <mxCell id="xRVCFaqXsWq_xzEo-EkV-2" value="更新语句" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="191" y="-40" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xRVCFaqXsWq_xzEo-EkV-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="120" y="160" width="240" height="240" as="geometry" />
@@ -126,8 +126,8 @@
         </mxCell>
         <mxCell id="xRVCFaqXsWq_xzEo-EkV-40" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="241" y="90" as="sourcePoint" />
-            <mxPoint x="240" y="160" as="targetPoint" />
+            <mxPoint x="241" y="20" as="sourcePoint" />
+            <mxPoint x="240" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xRVCFaqXsWq_xzEo-EkV-45" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#fa6800;strokeColor=#C73500;" edge="1" parent="1" source="xRVCFaqXsWq_xzEo-EkV-10">
@@ -147,6 +147,31 @@
         </mxCell>
         <mxCell id="xRVCFaqXsWq_xzEo-EkV-53" value="MTR提交" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="370" y="200" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVCFaqXsWq_xzEo-EkV-54" value="修改数据页&lt;br&gt;是否在内存中" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
+          <mxGeometry x="191" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVCFaqXsWq_xzEo-EkV-55" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240.5" y="120" as="sourcePoint" />
+            <mxPoint x="239.5" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVCFaqXsWq_xzEo-EkV-57" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="130" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVCFaqXsWq_xzEo-EkV-58" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="90" as="sourcePoint" />
+            <mxPoint x="120" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="90" />
+              <mxPoint y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVCFaqXsWq_xzEo-EkV-59" value="否：从磁盘读取加载至内存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="70" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
