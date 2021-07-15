@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T06:33:07.210Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="NDfCUYI-9cr4J-yBm9VF" version="14.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-15T06:37:47.083Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="DHz-Tk4VmMXiUvPiCqnK" version="14.8.6" type="github">
   <diagram id="1UGfSIZUDwF0RM6fDKGw" name="Page-1">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="xRVCFaqXsWq_xzEo-EkV-6" value="数据页1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="480" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xRVCFaqXsWq_xzEo-EkV-9" value="磁盘文件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="xRVCFaqXsWq_xzEo-EkV-9" value="表磁盘文件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="450" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xRVCFaqXsWq_xzEo-EkV-10" value="缓冲页1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -69,6 +69,60 @@
         </mxCell>
         <mxCell id="xRVCFaqXsWq_xzEo-EkV-21" value="表空间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="50" y="560" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVCFaqXsWq_xzEo-EkV-22" value="后台线程异步刷新" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="410" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVCFaqXsWq_xzEo-EkV-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="480" y="160" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVCFaqXsWq_xzEo-EkV-24" value="redo log buffer内存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="170" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVCFaqXsWq_xzEo-EkV-25" value="缓冲块1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVCFaqXsWq_xzEo-EkV-26" value="缓冲块2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVCFaqXsWq_xzEo-EkV-27" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="480" y="440" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVCFaqXsWq_xzEo-EkV-28" value="数据块1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="480" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVCFaqXsWq_xzEo-EkV-29" value="redolog磁盘文件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="555" y="450" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVCFaqXsWq_xzEo-EkV-30" value="数据行1" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="490" y="480" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVCFaqXsWq_xzEo-EkV-31" value="数据行n" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="670" y="480" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVCFaqXsWq_xzEo-EkV-32" value="数据块2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="580" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVCFaqXsWq_xzEo-EkV-33" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="540" y="480" as="sourcePoint" />
+            <mxPoint x="540" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVCFaqXsWq_xzEo-EkV-34" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="660" y="480" as="sourcePoint" />
+            <mxPoint x="660" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVCFaqXsWq_xzEo-EkV-36" value="后台线程异步刷新" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="410" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVCFaqXsWq_xzEo-EkV-37" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="510" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVCFaqXsWq_xzEo-EkV-38" value="redo log file文件组" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="560" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
