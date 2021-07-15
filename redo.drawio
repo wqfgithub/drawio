@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T02:12:50.852Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="qsX1Y9U_k53KFGjg7Yyh" version="14.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-15T02:19:30.001Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="sdbCNE_vKI6NvNVNroyl" version="14.8.6" type="github">
   <diagram id="CFBNOVU3VkG_wfSF0KI7" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,6 +24,21 @@
         </mxCell>
         <mxCell id="hLiM8OHmLuQRIlo8gQta-11" value="redo log行格式" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="90" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-13" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-14" value="log header" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-15" value="log tail" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-16" value="log body" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hLiM8OHmLuQRIlo8gQta-17" value="redo log block页格式" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="220" width="130" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
